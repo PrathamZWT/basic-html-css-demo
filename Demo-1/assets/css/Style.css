@@ -1,0 +1,483 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto";
+}
+html {
+    /* margin: 0px;
+    padding: 0px; */
+    /* width: 100lvb */
+    scroll-padding-top: 60px; 
+    
+}
+body{
+    /* background-color: rgb(229, 208, 172); */
+    background-color: whitesmoke;
+    margin: 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+h1,h3,h2{
+   color: rgb(109, 35, 35);
+}
+
+/* Header */
+
+#mainBGIMG{
+    /* z-index:-100 ;
+    width: 100%; */
+    width: 100%;          
+    height: 100vh;       
+    object-fit: cover;   
+    object-position: center; 
+}
+#stanfordName{
+    position: absolute;
+    margin-left: auto;
+    top: 3em;
+    font-family: SourceSerif4;
+    color: white;
+    font-size: 10em;
+}
+
+
+.img2{
+    max-height: 80px;
+      /* background-color: rgb(163, 29, 29); */
+      display: flex;
+      /* width:50%; */
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      align-items: center;
+      justify-content: center;
+    }
+    #logo{
+        height: 5em;
+        width: 10em;
+        /* margin-left: 3rem; */
+        margin-right: 3em;
+    }
+    nav{
+        background-color: rgba(163, 29, 29,0.2);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        height: 5em;
+        z-index: 10;
+    }
+    #navUl{
+        display: flex;
+        list-style-type: none;
+    }
+    .navli{
+        margin: 1em;
+    }
+    
+    a, a:hover, a:visited, a:active 
+{
+    color: inherit;
+    text-decoration: none;
+}
+a{
+    margin: 2.5em;
+    font-size:1em;
+    font-weight: 600;
+    
+}
+a:hover{
+    font-size: 1.3rem ;
+}
+.navH{
+    color:White;
+    font-family: Josefin Sans; 
+    /* background-color: rgb(163, 29, 29); */
+    font-size:3em;
+    z-index: 12;
+    margin: 0px;
+    
+}
+
+/* Main */
+
+.box{
+    background-color: rgb(254, 249, 225);
+    border-radius: 1.5em;
+    margin: 6em;
+    min-height: 40em;
+    padding: 2em;
+    /* min-width: 80%; */
+}
+
+/* Main */
+main{
+    min-inline-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    /* max-width: 100%; */
+    overflow-x: hidden;
+}
+
+/* Intro */
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 5px grey;
+    max-width: 80%;
+}
+/* #introHeading{
+    background-color: rgb(254, 249, 225);
+    font-size: 3em;
+    margin-bottom: 1em;
+    margin-top: 1em ;
+    animation: typing 3s steps(15) 1s forwards, blink 0.75s step-end infinite;
+} */
+
+#introHeading {
+    background-color: rgb(254, 249, 225);
+    font-size: 3em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+    white-space: nowrap;  
+    overflow: hidden;   
+    border-right: 4px solid black; 
+    
+    animation: typing 3s steps(15) 1s forwards, blink 0.75s step-end infinite;
+  }
+  
+  #introPara{
+    background-color: rgb(254, 249, 225); 
+    /* max-width: 80%; */
+    line-height: 2;
+    font-weight:500;
+    font-size: 1.4em;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;  
+    }
+    100% {
+        width: 14em; 
+    }
+}
+  
+/* Blinking cursor effect */
+@keyframes blink {
+    50% {
+        border-color: transparent; 
+    }
+}
+
+/* Article */
+
+
+#articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+section{
+    display: flex;
+    flex-direction: column;
+    /* width: 100em; */
+    box-shadow: 2px 2px 5px grey;
+}
+
+.CLh4{
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.album{
+    /* margin-left: 20em; */
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* max-width: 50%; */
+    
+}
+.albumgroup{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 3em; */
+}
+.abbumL{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+} 
+.albumIMG{
+    height: 14em;
+    width: 30em;
+    border: 1em solid maroon;
+    border-radius: 1.5em;
+}
+
+p{
+    background-color: rgb(254, 249, 225);
+}
+h3{
+    background-color: rgb(254, 249, 225);
+}
+.CampuslifeH{
+    font-size: 6em;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    width: 100%;
+}
+
+table{
+    width: 80%
+}
+td{
+    background-color: rgb(254, 249, 225);
+    /* border-radius: 2rem; */
+    height: 3rem;
+    width: 9rem;
+    text-align: center;
+    box-shadow: 1px 1px 1px grey;
+    
+}
+th{
+    background-color: rgb(254, 249, 225);
+    /* border-radius: 2rem; */
+    height: 3rem;
+    width: 9rem;
+    text-align: center;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3em;
+    padding: 3em;
+}
+.Med{
+    margin: 4em;
+    height: auto;
+    width: 60em;
+    box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+form{
+    width : 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(254, 249, 225);
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px grey;
+    height: 100%;
+}
+
+/* .form{
+    width : 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+} */
+
+.formin{
+    background-color: rgb(254, 249, 225);
+    margin: 0.5rem;
+}
+.innerdiv{
+    width: 50%;
+    text-align: left;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+input , select , textarea{
+    width: 50%;
+    margin-left: 3rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    resize: none;
+}
+
+#btn{
+    height: 3rem;
+    width: 60%;
+    border-radius: 1rem;
+    border: 1px solid rgb(254, 249, 225);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px grey;
+    background-color: rgb(163, 29, 29);
+    font-size:2em;
+}
+#btn:hover{
+    background:grey;
+    color:rgb(254, 249, 225);
+
+}
+
+footer{
+    background-color: rgb(109, 35, 35);
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    height: 30em;
+    margin-bottom: 0px;
+    z-index: 10;
+}
+#logo2{
+    height: 85%;
+    width: 40%;
+}
+.img4{
+    background-color: rgb(109, 35, 35);
+    width:50%;
+}
+.img3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(109, 35, 35);
+
+}
+#copy{
+    font-size: 3em;
+    color: white;
+}
+.img5{
+    display: flex;
+    font: 3em;
+    color: white;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.img3{
+    width: 100%;
+}
+.copy-right-links{
+    font-size: 2rem;
+    color: white;
+
+}
+    @media only screen and (max-width: 800px) {
+ 
+        html {
+            scroll-padding-top: 280px; 
+        
+          }
+          #logo{
+            height: 10em;
+            width: 15em;
+          }
+          .img2{
+            flex-direction: column;
+            margin: auto;
+          }
+          nav{
+            flex-direction: column;
+            height: 18em;
+          }
+          a{
+            font-size: 1.8em;
+          }
+          #mainBGIMG{
+            height: 100%;
+        }
+        main{
+            top: 20em;
+        }
+        #stanfordName{
+            /* z-index: -9; */
+            /* position: fixed; */
+          }
+          .box{
+            min-height: 120em;
+            max-width: 90em;
+          }
+    
+          #introPara{
+            font-size: 3em;
+          }
+          #introHeading{
+            font-size: 4em;
+          }
+          .CLh4{
+            font-size: 4em;
+          }
+          .albumIMG{
+            height: 30em;
+            width: 55em;
+          }
+          .abbumL{
+            font-size: 3em;
+          }
+          h3{
+            margin-top: 1em;
+            font-size: 4em;
+          }
+          ol{
+            margin: auto;
+            font-size: 3em;
+        }
+        ul{
+            max-width: 90em;
+            /* font-size: 3em; */
+          }
+          table{
+            margin: 0.5em;
+            font-size: 3em;
+        }
+        form{
+            min-height: 50em;
+            /* margin-bottom: 20em; */
+            /* margin-top: 40em; */
+            width: 90%;
+            font-size: 3em;
+            justify-content: space-around;
+        }
+        .innerdiv{
+            width: 80%;
+        }
+        input , select , textarea{
+            width: 90%;
+        }
+        #btn{
+            font-size: 2em;
+            height: 8rem;
+            width: 80%;
+        }
+        nav{
+            /* position: fixed; */
+        }
+        footer{
+            padding: 3em;
+        }
+      }

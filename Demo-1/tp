@@ -1,0 +1,83 @@
+rgb(126, 199, 199)
+
+bg rgb(244, 248, 249)
+sub bg rgb(255, 255, 255)
+
+
+
+
+header {
+          height: 280px ;
+          font-size: x-large;
+          flex-wrap: wrap;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: fixed;
+          align-items: flex-start;
+         } 
+        .img2{
+            display: flex;
+            margin: auto;
+            height: 60%;
+            width: 100%;
+        }
+        .navH{
+            font-size: 4em;
+        }
+    
+        nav{
+            padding: 0px;
+            width: 100%;
+        }
+        #navUl{
+            width: 100%;
+            float: none;
+            align-items: center; */
+        justify-content: space-between;
+        }
+        a{
+            font: 2em;
+            margin-bottom: 1.4em;
+            text-align: justify;
+        }
+        li{
+            margin-bottom: 1.4em;
+    
+        }
+        main{
+            height: 10vh;
+            font-size: 2em;
+         }
+    
+        .artciledata{
+            flex-direction: column;
+            width: 100%;
+            font-size: 2em;
+            text-align: justify;
+        }
+        article{
+            padding: 1em;
+            width: 100%;
+        }
+        section{
+            padding: 1em;
+            width: 100%;
+        }
+        .intro{
+            font-size: 2em;
+            padding: 1em; */
+            margin: 3em; */
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: fit-content;
+            text-align: justify;
+        }
+        table{
+            margin: 0.5em;
+            font-size: 3em;
+        }
+     
+        .Med{
+            font-size: 80em,;
+        }

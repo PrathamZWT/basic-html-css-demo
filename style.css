@@ -2,13 +2,16 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+body{
+    height: 100dvh;
+    background-color: rgb(240, 240, 240);
+}
 .wrapper{
     width: 100%;
     /* background-color: rgba(70, 169, 194,0.5); */
     background-color: rgb(240, 240, 240);
     font-family:Poppins ; 
-    height: 100vh;
+    height: 100dvh;
 }
 
 header{

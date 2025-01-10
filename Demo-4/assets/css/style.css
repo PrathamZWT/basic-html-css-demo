@@ -428,6 +428,9 @@ footer{
         align-items: center;
     }
 
+        .footer-ul{
+        align-items: center;
+    }
 }
 @media screen and (max-width: 350px)  {
     .nav-ul{

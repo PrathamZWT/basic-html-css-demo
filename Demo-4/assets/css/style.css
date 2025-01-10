@@ -430,6 +430,7 @@ footer{
 
         .footer-ul{
         align-items: center;
+            padding: 0px;
     }
 }
 @media screen and (max-width: 350px)  {

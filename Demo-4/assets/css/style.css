@@ -399,6 +399,9 @@ footer{
     .h1-section{
         padding: 4.563rem 4.375rem;
     }
+            header{
+        position:static;
+    }
 }
 @media screen and (max-width: 510px)  {
     .nav-logo-div{
@@ -420,9 +423,7 @@ footer{
     .card-outer-a{
         width: 100%;
     }
-        header{
-        position:static;
-    }
+
 }
 @media screen and (max-width: 350px)  {
     .nav-ul{

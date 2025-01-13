@@ -470,7 +470,7 @@ footer{
     }
 }
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
     header{
         position: absolute;
     }

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
-<!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
 </head>
+
 <body>
     <div class="wrapper">
         <header class="main-header">
@@ -20,6 +24,9 @@
                     </a>
                 </div>
                 <nav>
+                    <label class="ham-lable" for="hamburger"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></label>
+                    <label  class="close" for="ham-check-box" href="#home"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></label>
+                    <input class="ham-check-box" type="checkbox" name="hamburger" id="hamburger">
                     <ul class="nav-ul">
                         <li class="nav-li"><a class="nav-li-a" href="#home">Home</a></li>
                         <li class="nav-li"><a class="nav-li-a" href="#aboutus">About&nbsp;Us</a></li>
@@ -31,6 +38,15 @@
             </div>
         </header>
         <main>
+            <!-- <div class="menu">
+                <ul>
+                    <li class="nav-li"><a class="nav-li-a" href="#home">Home</a></li>
+                        <li class="nav-li"><a class="nav-li-a" href="#aboutus">About&nbsp;Us</a></li>
+                        <li class="nav-li"><a class="nav-li-a" href="#estate">why&nbsp;estate&nbsp;planning&nbsp;is&nbsp;Important</a></li>
+                        <li class="nav-li"><a class="nav-li-a" href="">News&nbsp;&&nbsp;Insights</a></li>
+                        <li class="nav-li"><a class="nav-li-a" href="">FAQ</a></li>
+                </ul>
+            </div> -->
             <section id="home" class="h1-section">
                 <div class="main-h1-container">
                     <div class="sub-heading">
@@ -38,7 +54,7 @@
                         <span class="sub-heading-content">Lorem Ipsum</span>
                     </div>
                     <h1>
-                        Do something  amazing for your family today
+                        Do something amazing for your family today
                     </h1>
                 </div>
             </section>
@@ -50,8 +66,17 @@
                     </div>
                     <div class="about-us-content-div">
                         <h2 class="about-us-h2">About Us</h2>
-                        <p class="about-us-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <a class="about-us-a" href="#">Read More <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#099E71"><path d="m696-312-51-51 81-81H144v-72h582l-81-81 51-51 168 168-168 168Z"/></svg></a>
+                        <p class="about-us-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <a class="about-us-a" href="#">Read More <svg xmlns="http://www.w3.org/2000/svg" height="20px"
+                                viewBox="0 -960 960 960" width="20px" fill="#099E71">
+                                <path d="m696-312-51-51 81-81H144v-72h582l-81-81 51-51 168 168-168 168Z" />
+                            </svg></a>
                     </div>
 
                 </div>
@@ -60,10 +85,11 @@
                 <div class="estate-container">
                     <div class="estate-content">
                         <a class="estate-h3-a" href="#">
-                            <h3 class="estate-h3" >WHY ESTATE PLANNING
+                            <h3 class="estate-h3">WHY ESTATE PLANNING
                                 IS IMPORTANT</h3>
-                            </a>
-                            <p class="estate-p" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </a>
+                        <p class="estate-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                         <a class="estate-a" href="#">View More</a>
                     </div>
                     <div class="album">
@@ -77,8 +103,8 @@
                                 <p class="card-p">Lorem Ipsum is simply dummy text of the printing</p>
                             </div>
                         </a>
-                        
-                        
+
+
                         <a class="card-outer-a" href="#">
                             <div class="card">
                                 <div class="card-image">
@@ -87,8 +113,8 @@
                                 <p class="card-p">Lorem Ipsum is simply dummy text of the printing</p>
                             </div>
                         </a>
-                        
-                        
+
+
                         <a class="card-outer-a" href="#">
                             <div class="card">
                                 <div class="card-image">
@@ -97,8 +123,8 @@
                                 <p class="card-p">Lorem Ipsum is simply dummy text of the printing</p>
                             </div>
                         </a>
-                        
-                        
+
+
                         <a class="card-outer-a" href="#">
                             <div class="card">
                                 <div class="card-image">
@@ -133,6 +159,7 @@
         </main>
     </div>
 </body>
+
 </html>
 
 <!-- 3.793 -->

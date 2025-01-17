@@ -200,7 +200,8 @@ h2{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.75rem 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
     background-color: #F08C3C;
     color: white;
     font-size: 1rem;

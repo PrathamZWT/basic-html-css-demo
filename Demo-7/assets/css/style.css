@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    /* width: 100%; */
+    height: 100%;
+    background-color: #1D1616;
+}
+.container-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Jersey 15';
+    color: rgb(238, 238, 238);
+    font-size: 5rem;
+    font-weight: 300;
+}
+h2{
+    font-family: 'Jersey 15';
+    color: rgb(238, 238, 238);
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.container-main{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Special-list{
+    background-color: rgba(216, 64, 64, 0.4);
+    border: 2px solid rgb(142, 22, 22) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+@keyframes pacman1 {
+    0%,50% {
+        /* visibility:visible; */
+        display: inline;
+    }
+    50.1%,100% {
+        display: none;
+    }
+}
+@keyframes pacman2 {
+    0%,50% {
+        display: none;
+    }
+    50.1%,100% {
+        display: inline;
+    }
+}
+
+.pac2{
+    /* display: none; */
+    animation-name: pacman2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.pac1{
+    /* display: none; */
+    animation-name: pacman1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+.SL-ul{
+    list-style-image: url('../images/pacman\ final.png');
+    font-size: xx-large;
+    color: rgb(238, 238, 238);
+    font-family: 'Exo 2';
+}
+.Pac-image{
+    padding-right: 8rem;
+}
+
+.card-section{
+    padding: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+
+.cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    }
+.card{
+    background-color: transparent;
+    perspective: 10000px;
+    height: 450px;
+    width: 280px;
+    /* width: 33.33%; */
+}
+
+.card-inner{
+    position: relative;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.front, .back{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+.card-img{
+    height: 450px;
+    width: 280px;
+}
+.front{
+
+}
+
+.back{
+    background-color: rgb(216, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    border-radius: 2rem;
+    font-family: 'Water Brush';
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.zealous-section {
+    width: 100%;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.zeal-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.zealous-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(60, 170, 180, 1));
+    z-index: 1; 
+}
+
+.zeal-container {
+    position: relative; 
+    z-index: 3; 
+    color: white; 
+    text-align: center; 
+    padding: 5rem 2rem;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.zeal-h2,.zeal-h4 {
+    margin: 1rem 0;
+}
+
+.zeal-container h2 {
+    font-size: 2.5rem;
+    font-weight:400;
+}
+
+.zeal-container h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.zeal-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    background-color: #F08C3C;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem; 
+    transition: background-color 0.3s ease;
+}
+
+.zeal-btn:hover {
+    background-color: rgb(245, 185, 118);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Special-list{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .SL-ul{
+        font-size: larger;
+        gap:2rem;
+    }
+    .Pac-image{
+        padding: 0px;
+        height: 100px;
+        width: 100px;
+    }
+    .pac1{
+        height: 100%;
+    }
+    .pac2{
+        height: 100%;
+    }
+    h1{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .card-img{
+        height: 300px;
+        width: 200px;
+    }
+    .card{
+        height: 300px;
+        width: 200px;
+    }
+    .card-section{
+        gap: 0px;
+    }
+    .container-main{
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        text-align: center;
+    }
+}
